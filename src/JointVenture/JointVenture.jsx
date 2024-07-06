@@ -1,5 +1,6 @@
 import React from "react";
-import src1 from "../assets/vcpainting1.png";
+import src1 from "../assets/vbpainting2.png";
+import src2 from "../assets/victory-logo.png";
 
 const JointVenture = () => {
   return (
@@ -13,7 +14,7 @@ const JointVenture = () => {
           <div className=" w-[850px] h-[340px] my-5 -ml-80 -mt-20 grid grid-cols-1 grid-rows-2 bg-slate-50">
             <div className=" w-full h-[180px] grid grid-cols-2 grid-rows-2 px-10 py-10">
               <div className=" row-span-2">
-                <img src={src1} alt="img123" className="w-36 h-36" />
+                <img src={src2} alt="img123" className="w-36 h-36" />
               </div>
               <div className=" text-black font-extrabold text-6xl -ml-40 justify-center">
                 <h1>VICTORY</h1>

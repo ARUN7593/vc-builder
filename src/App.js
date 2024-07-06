@@ -2,7 +2,12 @@
 // import PaintingPage from "./PaintingPage";
 // import Painting2 from "./Painting2";
 
-import JointVenture from "./JointVenture/JointVenture";
+// import JointVenture from "./JointVenture/JointVenture";
+import SomeProject from "./JointVenture/SomeProject";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import TestimonialSomeProject from "./JointVenture/TestimonialSomeProject";
 
 // import ContactUs from "./Contact/ContactUs";
 // import ContactForm from "./Contact/ContactForm";
@@ -10,7 +15,9 @@ import JointVenture from "./JointVenture/JointVenture";
 function App() {
   return (
     <>
-      <JointVenture />
+      {/* <JointVenture /> */}
+      <TestimonialSomeProject />
+      <SomeProject />
 
       {/* <ContactForm />
       <ContactUs /> */}
