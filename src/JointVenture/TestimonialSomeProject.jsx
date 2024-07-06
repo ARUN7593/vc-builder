@@ -31,6 +31,7 @@ const testimonials = [
 
 const TestimonialSomeProject = () => {
   const settings = {
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -44,11 +45,11 @@ const TestimonialSomeProject = () => {
 
   return (
     <div className="container md:w-full ml-15">
-      <div className="w-full h-[75vh] grid grid-rows-1 grid-cols-2">
+      <div className="w-full h-[84vh] grid grid-rows-1 grid-cols-2">
         <img
           src={src123}
           alt="bgimageforsomeproject"
-          className="absolute w-[200%] h-[75vh]  md:px-10 md:py-5"
+          className="absolute w-[200%] h-[84vh]  md:px-10 md:py-5"
         />
         <div className=" w-[85vw] h-[55vh] relative mx-20 my-20 border-2 border-red-800 ">
           <Slider {...settings}>
